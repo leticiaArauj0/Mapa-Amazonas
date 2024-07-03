@@ -1,0 +1,49 @@
+.header {
+  height: 10vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #32302f;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d4be98;
+
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  text-align: center;
+}
+
+.containerAudio {
+  position: absolute;
+  right: 5rem;
+}
+
+.header audio {
+  width: 8rem;
+}
+
+.header audio::-webkit-media-controls-panel {
+  background-color: #D4BE98;
+}
+
+.header audio::-webkit-media-controls-toggle-closed-captions-button,
+.header audio::-webkit-media-controls-timeline-container, 
+.header audio::-webkit-media-controls-current-time-display,
+.header audio::-webkit-media-controls-time-remaining-display,
+.header audio::-webkit-media-controls-timeline,
+.header audio::-webkit-media-controls-return-to-realtime-button {
+  display: none;
+}
+
+@media (max-width: 750px) { 
+  .header audio {
+    display: none;
+  }
+}

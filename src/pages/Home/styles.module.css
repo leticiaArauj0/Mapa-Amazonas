@@ -1,0 +1,50 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #282828;
+}
+
+.containerMap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.municipio {
+    width: 16rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #D4BE98;
+    color: #32302F;
+    
+    padding: 0.8rem 0.5rem;
+    border-radius: 5px;
+}
+
+.municipio span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.containerInfoGame {
+   width: 20rem; 
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   background-color: #D4BE98;
+
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.1rem;
+   color: #282828;
+
+   border-radius: 5px;
+   padding: 0.5rem;
+}
